@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+   >
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="First Name"
+                android:id="@+id/textView" />
+
+            <EditText
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:id="@+id/editText_fnm"
+                android:text="Pradip"
+                android:ems="10"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Last Name"
+                android:id="@+id/textView2" />
+
+            <EditText
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Radadiya"
+                android:ems="10"
+                android:id="@+id/editText_lnm" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Phone No"
+                android:id="@+id/textView3" />
+
+            <EditText
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:text="9725800283"
+                android:ems="10"
+                android:id="@+id/editText_phoneno" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Record"
+
+                android:id="@+id/button_add" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:id="@+id/button_clear"
+                />
+            <Button
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Delete All Record"
+                 android:id="@+id/button_delete"
+        />
+
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView" />
+
+    
+</LinearLayout>
